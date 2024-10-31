@@ -1,0 +1,252 @@
+div#plugin_kontakt {
+	margin: -1px 0 0 0px;
+	width: 100%;
+}
+
+div#plugin_kontakt div.clear {
+	clear: both;
+}
+
+/* Navigation */
+div#plugin_kontakt div.navigation {
+	background: #EEEEEE;
+	margin-bottom: 12px;
+	padding: 0 0 12px 10px;
+	margin: 0 0 0 -19px;
+	border-top: 1px solid #BDBDBD;
+}
+
+div#plugin_kontakt div.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#plugin_kontakt div.navigation ul li {
+	background-color: #FFFFFF;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-top: 1px solid #DDDDDD;
+	float: left;
+	display: block;
+	font-size: 13px;
+	margin: 3px 5px 0 0;
+	padding: 5px 6px 3px 6px;
+}
+
+div#plugin_kontakt div.navigation ul li a {
+	color: #21759B;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* Formular Designer */
+div#plugin_kontakt div#datastream {
+	position: absolute;
+	margin: 0 0 0 222px;
+	padding: 5px;
+	border: 1px solid;
+	width: 300px;
+}
+
+div#plugin_kontakt div#datastream span.del {
+	padding: 20px;
+	background: url('../images/delete.png') 50% 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer {
+	margin: -12px 0 0 -20px;
+	height: 100%;
+}
+
+div#plugin_kontakt div.form_designer div.top {
+	text-shadow: 0px 1px 1px #fff;
+	background-image: -moz-linear-gradient(top, #cacaca, #848484);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cacaca), to(#848484));
+	padding: 10px;
+}
+
+div#plugin_kontakt div.form_designer div.top h2 {
+	padding: 3px 0 0 100px;
+	margin: 0;
+}
+
+div#plugin_kontakt div.form_designer div.top h2.np {
+	padding: 0;
+}
+
+div#plugin_kontakt div.form_designer div.top span.save {
+	position: absolute;
+	background: url('../images/icon_save.png') 5px 50% no-repeat;
+	padding: 5px 10px 5px 25px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #DDDDDD;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	margin: -5px 0 0 -100px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom {
+	position: relative;
+	display: block;
+	overflow: auto;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left {
+	position: absolute;
+	width: 200px;
+	left: 20px;
+	top: 0;
+	bottom: 0;
+	border: 1px solid #AAAAAA;
+	background: #FFFFFF;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left h2 {
+	margin: 0;
+	padding: 5px;
+	background: #DDDDDD;
+	text-shadow: 0px 1px 1px #fff;
+	border-bottom: #848484;
+	font-size: 14px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.settings {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.settings span.data {
+	display: inline-block;
+	padding: 2px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #DDDDDD;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	margin: 10px 0 -20px 10px;
+	background-image: -moz-linear-gradient(top, #cacaca, #848484);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cacaca), to(#848484));
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.settings span.data img {
+	padding: 0;
+	margin: 0;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.entry {
+	padding: 5px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.entry li {
+	padding: 0 0 0 30px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.entry li.input {
+	background: url('../images/icon_input.png') 0 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.entry li.text {
+	background: url('../images/icon_text.png') 0 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.entry li.list {
+	background: url('../images/icon_list.png') 0 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.left div.entry li:hover {
+	cursor: pointer;
+	background-color: #FFF8CC;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right {
+	clear: both;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form {
+	width: 500px;
+	min-height: 500px;
+	background: #FFFFFF;
+	padding: 10px;
+	margin: 20px 0 0 -250px;
+	border: 1px solid #AAAAAA;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field {
+	position: relative;
+	border: 1px solid transparent;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.bar {
+	position: absolute;
+	display: none;
+	right: 0;
+	bottom: 0;
+	width: 70px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.bar span {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.bar span.up {
+	background: url('../images/icon_down.gif') 50% 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.bar span.down {
+	background: url('../images/icon_up.gif') 50% 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.bar span.delete {
+	background: url('../images/delete.png') 50% 50% no-repeat;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field:hover {
+	border: 1px dotted #EAD33F;
+	cursor: pointer;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field:hover div.bar {
+	display: block;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field label {
+	border: 1px solid transparent;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field label:hover {
+	border: 1px dotted #FF0000;
+	cursor: pointer;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.fake_input {
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	height: 20px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.fake_text {
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	height: 100px;
+}
+
+div#plugin_kontakt div.form_designer div.bottom div.right div.my_form div.field div.fake_list {
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	height: 20px;
+	background: url('../images/icon_down.gif') 100% 50% no-repeat;
+}
